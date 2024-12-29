@@ -28,11 +28,16 @@ Output jack for modulated signal: `A sin((f_1 + f_2) t) + A sin((f_1 - f_2) t)`
 
 ## Adjustment
 
+### Choose Operating Mode
+
+There are three sets of jumpers for setting whether the inputs and outputs will be AC or DC coupled.
+Use three jumpers to choose how the signals will be coupled.
+
 TBD
 
 ## Vendors
 
-There are part numbers in the [BOM](saw-animator.csv) for many of the parts (not for basic passives though) at the following vendors:
+There are part numbers in the [BOM](balanced-modulator.csv) for many of the parts (not for basic passives though) at the following vendors:
 
 * [Mouser](https://www.mouser.com): Needs no introduction. Get your ICs from here (or [digikey](https://www.digikey.com)).
 * [Tayda Electronics](https://www.taydaelectronics.com/): Good supplier for passive components; audio jacks, and potentiometers. Their audio jacks are slightly smaller than the thonkiconn from thonk.
